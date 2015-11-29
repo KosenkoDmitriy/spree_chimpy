@@ -7,4 +7,8 @@ gem 'growl' if /darwin/ =~ RUBY_PLATFORM
 gem 'byebug'
 gem 'pry-byebug'
 
+group :test do
+  gem 'poltergeist'
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
+end
 gemspec
