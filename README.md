@@ -31,13 +31,7 @@ Makes it easy to integrate your [Spree][1] app with [MailChimp][2].
 Add spree_chimpy to your `Gemfile`:
 
 ```ruby
-gem 'spree_chimpy'
-```
-
-Alternatively you can use the git repo directly:
-
-```ruby
-gem 'spree_chimpy', github: 'DynamoMTL/spree_chimpy', branch: 'master'
+gem 'spree_chimpy', github: 'KosenkoDmitriy/spree_chimpy', branch: '3-0-stable'
 ```
 
 Run bundler:
